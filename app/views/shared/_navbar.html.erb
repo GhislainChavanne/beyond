@@ -1,0 +1,44 @@
+<div class="navbar-wagon navbar-wagon-fixed collapse navbar-collapse hidden-xs">
+
+  <%= link_to root_path, class: "navbar-wagon-brand" do %>
+    <%= image_tag "logo-picto.png" %>
+  <% end %>
+
+  <div class="navbar-center hidden-xs">
+    <div>
+      <%= link_to root_path, class: "navbar-wagon-brand-menu" do %>
+      <%= image_tag "logo-picto.png" %>
+      <% end %>
+    </div>
+    <div>
+      <a href="#presentation" id="btn">L'équipe</a>
+    </div>
+    <div>
+      <a href="#avocats" id="btn">Clients</a>
+    </div>
+    <div>
+      <a href="#actualites" id="btn">Histoire</a>
+    </div>
+    <div>
+      <a href="#contact" id="btn">Methodologie</a>
+    </div>
+    <div class="contact-navbar">
+      <div class="contact-content">
+        <p><span style="letter-spacing: 3.5px;">Tel</span> : <span style="letter-spacing: 3.3px;">01 42 18 18 19</span></p>
+        <p>contact@cw-avocats.com</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Dropdown list appearing on mobile only -->
+  <div class="navbar-wagon-item hidden-lg hidden-md">
+    <div class="dropdown">
+      <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
+      <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
+        <li><a href="#">Some mobile link</a></li>
+        <li><a href="#">Other one</a></li>
+        <li><a href="#">Other one</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
