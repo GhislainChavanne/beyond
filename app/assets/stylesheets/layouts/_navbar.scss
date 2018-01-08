@@ -13,13 +13,15 @@
   display: flex;
   flex-flow: row;
   justify-content: space-between;
-  width: 70%;
+  width: 50%;
   margin: auto;
   align-items: center;
   position: relative;
+  height: 70px;
   a {
     text-decoration: none;
     color: #5757C1;
+    letter-spacing: 1.5px;
   }
 }
 
@@ -61,23 +63,23 @@
 
 .contact-navbar {
   line-height: 15px;
-  height: 70px;
   display: flex;
   align-items: center;
   padding-left: 5px;
   padding-right: 5px;
-}
-
-.contact-content {
+  position: absolute;
+  right: 10px;
+  top: 10px;
   p {
   font-size: 14px;
-  margin: 0px;
-  font-family: 'Roboto', sans-serif;
+  margin: 5px;
   text-align: justify;
   color: #5757C1;
   text-align: right;
+  letter-spacing: 1.5px;
   }
 }
+
 
 /* Optional class to fix the navbar on top */
 .navbar-wagon-fixed {
@@ -90,12 +92,13 @@
 
 /* Navbar logo */
 
-.navbar-wagon-brand-menu img {
-  width: 50px;
-}
-
-.navbar-wagon-brand img {
-  width: 50px;
+.navbar-wagon-brand-menu {
+  position: absolute;
+  left: 20px;
+  top: 7px;
+  img {
+    width: 50px;
+  }
 }
 
 @media screen and (min-width: 767px) {
