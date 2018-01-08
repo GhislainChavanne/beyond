@@ -20,21 +20,19 @@
   height: 70px;
   a {
     text-decoration: none;
-    color: #5757C1;
+    color: inherit;
     letter-spacing: 1.5px;
   }
 }
 
 #btn:hover {
-  color: #2580c6;
   font-style: italic;
-  border-bottom: 5px solid #2580c6;
+  border-bottom: 5px solid inherit;
   padding-bottom: 23px;
   transition: background 0.3s ease;
 }
 
 #btn-navbar-actu:hover {
-  color: #2580c6;
   font-style: italic;
   border-bottom: 5px solid #2580c6;
   padding-bottom: 23px;
@@ -74,7 +72,7 @@
   font-size: 14px;
   margin: 5px;
   text-align: justify;
-  color: #5757C1;
+  color: inherit;;
   text-align: right;
   letter-spacing: 1.5px;
   }
