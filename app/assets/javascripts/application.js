@@ -4,3 +4,15 @@
 //= require_tree .
 
 
+
+
+$( document ).ready(function() {
+  $(document).on('click', '#btn', function(event){
+      event.preventDefault();
+      var offset = - 30;
+
+      $('html, body').animate({
+          scrollTop: $( $.attr(this, 'href') ).offset().top + offset
+      }, 500);
+  });
+});
