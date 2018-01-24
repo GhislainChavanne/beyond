@@ -3,9 +3,15 @@ body {
   background-color: white;
 }
 
-h2 {
+.wrapper {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+h2, h3, h4, h5, h6 {
   color: #0a0118;
   letter-spacing: 1.5px;
+  line-height: 150%;
 }
 
 .banner {
@@ -39,6 +45,5 @@ h2 {
   h2 {
     margin: 0px;
     padding: 0px;
-    line-height: 150%;
   }
 }

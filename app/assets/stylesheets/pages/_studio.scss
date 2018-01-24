@@ -1,0 +1,37 @@
+.accroche {
+  width: 80%;
+  margin: auto;
+  padding-bottom: 100px;
+  h5 {
+    text-align: center;
+  }
+}
+
+.row-studio {
+  width: 80%;
+  margin: auto;
+}
+
+.img-studio {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  img {
+    width: 60%;
+  }
+}
+
+.card-studio {
+  padding: 20px;
+  padding-right: 40px;
+  padding-left: 40px;
+  .card-img {
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    background-position: center;
+    height: 100px;
+  }
+  h5 {
+    margin-top: 20px;
+  }
+}
