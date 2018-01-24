@@ -6,6 +6,7 @@
   align-items: center;
   justify-content: space-between;
   max-width: 100%;
+  z-index: 2;
 }
 
 .navbar-center {
@@ -17,6 +18,7 @@
   align-items: center;
   position: relative;
   height: 70px;
+  z-index: 2;
   a {
     text-decoration: none;
     color: inherit;
@@ -42,19 +44,7 @@
 
 @media screen and (max-width: 1200px) {
   .navbar-center {
-  width: 90%;
-  }
-}
-
-@media screen and (max-width: 997px) {
-  .navbar-center {
-  font-size: 14px;
-  }
-}
-
-@media screen and (max-width: 861px) {
-  .navbar-center {
-  font-size: 12px;
+  width: 80%;
   }
 }
 
@@ -84,7 +74,7 @@
   position: fixed;
   left: 0px;
   top: 0px;
-  z-index: 1;
+  z-index: 2;
   width: 100%;
 }
 
