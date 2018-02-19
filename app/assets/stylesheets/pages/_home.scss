@@ -69,4 +69,14 @@ h2, h3, h4, h5, h6 {
 .footer {
   background-color: #0a0118;
   height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  a:hover {
+    color: white;
+  }
 }
