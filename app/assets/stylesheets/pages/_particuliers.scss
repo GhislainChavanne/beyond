@@ -41,3 +41,23 @@
   width: 70%;
   padding: 0px;
 }
+
+.btn-defisc {
+  background-color: #C1C1C4;
+  padding: 4px;
+  color: #0a0118;
+  font-size: 14px;
+  margin-left: 12px;
+  border: 2px solid #C1C1C4;
+  font-weight: bold;
+}
+
+.btn-defisc:hover {
+  background-color: white;
+  color: #0a0118;
+  cursor: pointer;
+}
+
+.modal-content {
+  padding: 25px;
+}
