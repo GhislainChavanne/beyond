@@ -1,21 +1,10 @@
 .particuliers-pic {
-  position: absolute;
-  bottom: -250px;
-  right: 15px;
-  width: 250px;
-  z-index: 1;
-}
-
-@media screen and (max-width: 993px) {
-  .particuliers-pic {
-  width: 180px;
-  bottom: -200px;
-  }
-}
-
-@media screen and (max-width: 643px) {
-  .particuliers-pic {
-  display: none;
+  width: 100%;
+  background-position: center;
+  background-size: cover !important;
+  background-repeat: no-repeat;
+  h5 {
+    color: transparent;
   }
 }
 
