@@ -65,3 +65,37 @@
     color: #918D97;
   }
 }
+
+.presse {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 40px;
+  img {
+    width: 100px;
+  }
+}
+
+@media screen and (max-width: 922px) {
+  .presse img {
+    width: 80px;
+  }
+}
+
+@media screen and (max-width: 707px) {
+  .presse img {
+    width: 60px;
+  }
+}
+
+@media screen and (max-width: 512px) {
+  .presse {
+    flex-flow: column;
+    img {
+      margin-top: 40px;
+      width: 100px;
+    }
+  }
+}
+
+
