@@ -9,7 +9,7 @@
 $( document ).ready(function() {
   $(document).on('click', '#btn', function(event){
       event.preventDefault();
-      var offset = - 30;
+      var offset = - 10;
 
       $('html, body').animate({
           scrollTop: $( $.attr(this, 'href') ).offset().top + offset

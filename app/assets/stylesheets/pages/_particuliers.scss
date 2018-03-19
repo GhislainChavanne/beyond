@@ -1,16 +1,24 @@
 .particuliers-pic {
-  width: 100%;
+  width: 90%;
+  height: 280px;
   background-position: center;
   background-size: cover !important;
   background-repeat: no-repeat;
+  margin-bottom: 30px;
   h5 {
     color: transparent;
   }
 }
 
+@media screen and (max-width: 992px) {
+  .particuliers-pic {
+    width: 100%;
+  }
+}
+
+
 .panel-default {
   border: none;
-  margin-top: 10px;
 }
 
 .panel-default .panel-heading {
@@ -21,13 +29,14 @@
   background-color: white;
   border: none;
   padding: 0px;
-  .panel-title{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin: auto;
+  .panel-title {
     color: #0a0118;
-    font-size: 18px;
-    font-weight: bolder;
+    display: inline-block;
+    h5 {
+      font-weight: bolder;
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
   }
 }
 
@@ -36,10 +45,13 @@
 }
 
 .panel-body {
-  letter-spacing: 2px;
+  letter-spacing: 1.2px;
   color: #0a0118;
   width: 100%;
   padding: 0px;
+  font-size: 13px;
+  margin-top: 12px;
+  text-align: justify;
 }
 
 .btn-defisc {

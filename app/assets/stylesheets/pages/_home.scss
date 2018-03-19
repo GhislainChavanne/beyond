@@ -23,9 +23,18 @@ h2, h3, h4, h5, h6 {
 }
 
 h5 {
-  font-size: 14px;
+  font-size: 13px;
 }
 
+.hidenavbar {
+  position: absolute;
+  height: 70px;
+  background-color: #FEFEFE;
+  z-index: 1000;
+  right: 0px;
+  left: 0px;
+  top: 0px
+}
 
 .title {
   text-align: center;
@@ -33,11 +42,10 @@ h5 {
 }
 
 .banner {
-  color: white;
   text-align: center;
   height: calc(100vh - 50px);
   /* if you have a 70px navbar => height: calc(100vh - 70px); */
-  background-color: white;
+  background-color: #FEFEFE;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -56,6 +64,8 @@ h5 {
   }
   h2 {
     font-family: 'Libre Baskerville', "serif";
+    line-height: 100%;
+    margin-top: -10px;
   }
 }
 
