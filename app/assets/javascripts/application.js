@@ -16,3 +16,14 @@ $( document ).ready(function() {
       }, 500);
   });
 });
+
+$( document ).ready(function() {
+  $(document).on('click', '#btn-banner', function(event){
+      event.preventDefault();
+      var offset = - 0;
+
+      $('html, body').animate({
+          scrollTop: $( $.attr(this, 'href') ).offset().top + offset
+      }, 500);
+  });
+});

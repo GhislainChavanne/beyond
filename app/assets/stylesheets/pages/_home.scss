@@ -55,6 +55,53 @@ h5 {
   justify-content: center;
   position: relative;
   margin-top: 50px;
+  a {
+    position: absolute;
+    bottom: 20px;
+    color: #0a0118;
+    font-size: 25px;
+  }
+}
+
+.pulse{
+  animation-name: pulse;
+  -webkit-animation-name: pulse;
+
+  animation-duration: 1.5s;
+  -webkit-animation-duration: 1.5s;
+
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.9);
+    opacity: 0.4;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0.9);
+    opacity: 0.4;
+  }
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-transform: scale(0.95);
+    opacity: 0.4;
+  }
+  50% {
+    -webkit-transform: scale(1.1);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(0.95);
+    opacity: 0.4;
+  }
 }
 
 .content-banner {
@@ -67,7 +114,6 @@ h5 {
     margin: auto;
   }
   h2 {
-    font-family: 'Libre Baskerville', "serif";
     line-height: 100%;
     margin-top: -10px;
   }
