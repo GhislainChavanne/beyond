@@ -119,6 +119,12 @@ h5 {
   }
 }
 
+@media screen and (max-width: 360px) {
+  .content-banner img {
+    width: 120px;
+  }
+}
+
 .footer {
   background-color: #0a0118;
   height: 60px;
