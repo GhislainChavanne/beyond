@@ -1,6 +1,6 @@
 .particuliers-pic {
   width: 90%;
-  height: 500px;
+  height: 450px;
   background-position: center;
   background-size: cover !important;
   background-repeat: no-repeat;
@@ -12,7 +12,7 @@
 
 .entreprises-pic {
   width: 90%;
-  height: 600px;
+  height: 360px;
   background-position: center;
   background-size: cover !important;
   background-repeat: no-repeat;
@@ -60,6 +60,8 @@
       font-weight: bolder;
       margin-top: 0px;
       margin-bottom: 0px;
+      text-align: justify;
+      font-size: 12.5px;
     }
   }
 }
