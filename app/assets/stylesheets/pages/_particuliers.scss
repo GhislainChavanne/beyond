@@ -10,6 +10,30 @@
   }
 }
 
+.entreprises-pic {
+  width: 90%;
+  height: 200px;
+  background-position: center;
+  background-size: cover !important;
+  background-repeat: no-repeat;
+  margin-bottom: 30px;
+  h5 {
+    color: transparent;
+  }
+}
+
+.entreprises-pic-big {
+  width: 90%;
+  height: 450px;
+  background-position: center;
+  background-size: cover !important;
+  background-repeat: no-repeat;
+  margin-bottom: 30px;
+  h5 {
+    color: transparent;
+  }
+}
+
 @media screen and (max-width: 992px) {
   .particuliers-pic {
     width: 100%;
