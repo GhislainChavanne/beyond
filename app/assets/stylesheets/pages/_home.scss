@@ -139,3 +139,69 @@ h5 {
     color: white;
   }
 }
+
+.carousel_wrapper {
+  position: relative;
+  z-index: -1;
+  align-items: center;
+  width: 100%;
+}
+
+
+.carousel {
+  width: 100%;
+  align-items: center;
+  flex: 0 0 50%;
+  position: relative;
+  img {
+    margin: auto;
+  }
+}
+
+.carousel-indicators {
+  position: absolute;
+  bottom: 50px;
+}
+
+#myCarousel {
+  width: 70%;
+  height: 70vh;
+  background-color: white;
+  margin: auto;
+}
+
+.item {
+  color: white;
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.carousel-fade {
+  .carousel-inner {
+    .item {
+          transition-property: opacity;
+        }
+
+    .item,
+    .active.left,
+    .active.right {
+       opacity: 0;
+      }
+
+    .active,
+    .next.left,
+    .prev.right {
+        opacity: 1;
+    }
+
+    .next,
+    .prev,
+    .active.left,
+    .active.right {
+        left: 0;
+        transform: translate3d(0, 0, 0);
+    }
+  }
+}
