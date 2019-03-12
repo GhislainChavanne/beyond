@@ -3,4 +3,6 @@ class PagesController < ApplicationController
   end
   def defiscalisation
   end
+  def oeuvres
+  end
 end
