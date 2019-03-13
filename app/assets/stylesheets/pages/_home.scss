@@ -16,6 +16,19 @@ body {
   margin: auto;
 }
 
+.container-oeuvres {
+  position: relative;
+  width: 70%;
+  margin: auto;
+}
+
+@media screen and (max-width: 500px) {
+  .container-oeuvres {
+    width: 100%;
+  }
+}
+
+
 h2, h3, h4, h5, h6 {
   color: #0a0118;
   letter-spacing: 1.2px;
@@ -138,13 +151,13 @@ h5 {
 
 @media screen and (max-width: 500px) {
   #myCarousel {
-    height: 30vh;
+    height: 45vh;
   }
 }
 
 @media screen and (max-width: 500px) {
   .item {
-    height: 30vh;
+    height: 45vh;
   }
 }
 
