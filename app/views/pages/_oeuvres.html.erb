@@ -2,7 +2,7 @@
   <div class="container">
     <h2 class="title">Les oeuvres</h2>
     <div class="carousel_wrapper" style="position: relative;">
-      <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="4500">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner" role="listbox">
           <div class="item active">
             <%= image_tag("carousel26.png") %>
@@ -88,5 +88,13 @@
         </div>
       </div>
     </div>
+  </div>
+  <div class="controler-carousel">
+    <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+      <%= image_tag("left.png") %>
+    </a>
+    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+      <%= image_tag("right.png") %>
+    </a>
   </div>
 </div>

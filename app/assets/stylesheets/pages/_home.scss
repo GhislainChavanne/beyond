@@ -206,24 +206,9 @@ h5 {
   }
 }
 
-.card-image {
-  margin-bottom: 20px;
-  img {
-    width: 100%;
-  }
+.controler-carousel {
+  width: 100%;
+  text-align: center;
+  margin-top: 15px;
 }
 
-.btn-oeuvres {
-  background-color: #0a0118;
-  padding: 5px;
-  color: white;
-  float: right;
-  border: 3px solid #0a0118;
-  font-weight: 300;
-}
-
-.btn-oeuvres:hover {
-  background-color: white;
-  color: #0a0118;
-  transition: background 0.3s ease;
-}
