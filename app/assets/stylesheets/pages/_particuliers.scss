@@ -22,6 +22,18 @@
   }
 }
 
+@media screen and (max-width: 600px) {
+  .particuliers-pic {
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .entreprises-pic {
+    height: 300px;
+  }
+}
+
 .image-carousel-style1 {
   height: 200px;
   width: 100%;
@@ -90,7 +102,7 @@
       font-weight: bolder;
       margin-top: 0px;
       margin-bottom: 0px;
-      text-align: justify;
+      text-align: left;
       font-size: 12.5px;
     }
   }
