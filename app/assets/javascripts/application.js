@@ -31,7 +31,7 @@ $( document ).ready(function() {
 $( document ).ready(function() {
   $(document).on('click', '#btn-top', function(event){
       event.preventDefault();
-      var offset = - 40;
+      var offset = - 50;
 
       $('html, body').animate({
           scrollTop: $( $.attr(this, 'href') ).offset().top + offset
